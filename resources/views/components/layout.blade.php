@@ -20,8 +20,8 @@
       </h1>
       <a href="{{ route('ninjas.create') }}">Create New Ninja</a>
 
-      <a href="{{ route('login') }}" class="btn">Login</a>
-      <a href="{{ route('register') }}" class="btn">Register</a>
+      <a href="{{ route('show.login') }}" class="btn">Login</a>
+      <a href="{{ route('show.register') }}" class="btn">Register</a>
     </nav>
   </header>
 
