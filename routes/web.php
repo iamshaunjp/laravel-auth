@@ -9,8 +9,10 @@ Route::get('/', function () {
 });
 
 // auth
-Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
-Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+Route::get('/register', [AuthController::class, 'showRegister'])->name('show.register');
+Route::get('/login', [AuthController::class, 'showLogin'])->name('show.login');
+Route::post('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/register', [AuthController::class, 'register'])->name('register');
 
 // ninjas
 Route::get('/ninjas', [NinjaController::class, 'index'])->name('ninjas.index');
