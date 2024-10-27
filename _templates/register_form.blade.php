@@ -1,7 +1,7 @@
 <form action="" method="">
   @csrf
 
-  <h2>Sign Up for an Account</h2>
+  <h2>Register for an Account</h2>
 
   <label for="email">Email:</label>
   <input 
@@ -17,7 +17,7 @@
     required
   >
 
-  <button type="submit" class="btn mt-4">Sign Up</button>
+  <button type="submit" class="btn mt-4">Register</button>
 
   <!-- validation errors -->
   
